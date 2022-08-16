@@ -283,6 +283,16 @@ body {
     align-items: center;
     gap: 15px;
 }
+.contacto{
+    width: 60%;
+    margin: auto;
+}
+.contacto input{
+    width: 70%;
+}
+.contacto textarea{
+    width: 70%;
+}
 
 /*fin partes de los body*/
 
@@ -434,6 +444,12 @@ header label{
 }
 footer {
     letter-spacing: 10px;
+}
+.contacto input{
+    width: 100%;
+}
+.contacto textarea{
+    width: 100%;
 }
 }
 @media only screen and (min-width:501px){
