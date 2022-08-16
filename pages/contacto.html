@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../assets/img/favicon.png"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../estilos.css">
+    <title>Cake mom</title>
+</head>
+<body>
+    <header class="header">
+        <h1> Pasteleria Cake Mom</h1>
+        <section>
+            <input type="checkbox" id="btn-menu">
+            <label for="btn-menu"><i class="fa-solid fa-bars"></i></label>
+            <nav class="menu">
+                <ul class="center">
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="./postres.html">Postres</a></li>
+                    <li><a href="./pasteles.html">Pasteles</a></li>
+                    <li><a href="./mesadulce.html">Mesa dulce</a></li>
+                    <li><a href="./contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+    </section>
+    </header>
+    <!--Formulario para presupuestos u otras consultas-->
+    <section class="form">
+        <div>
+            <h2 class="contacto">Contacto</h2>
+            <h3 class="consulta">Presupuestos y/o consultas</h3>
+        </div>
+        <article>
+            <legend>Datos de contacto</legend>
+            <form action="#">
+                <label for="nombre">Nombre</label><br>
+                    <input type="text" name="nombre"><br>
+                <label for="apellido">Apellido</label><br>
+                    <input type="text" name="apellido"><br>
+                <label for="email">Email</label><br>
+                    <input type="email" name="email"><br>
+                <label for="celular">Celular</label><br>
+                    <input type="text" name="celular"><br>
+                    <br>
+                <label for="consulta">Tipo de consulta</label><br>
+                    <select name="consulta">
+                        <option value="pasteles">Pasteles</option>
+                        <option value="postres">Postres</option>
+                        <option value="mesadulce">Mesa Dulce</option>
+                        <option value="otros">Otros</option>
+                    </select>
+                <br>
+                <label for="comentario">Escriba aqui su consulta</label><br>
+                <textarea name="comentario" id="" cols="30" rows="10"></textarea><br>
+                <input type="reset" value="Limpiar formulario">
+                <input type="submit" value="Enviar">
+            </form>
+            <div>
+                <h3>Visite nuestro local!</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13213.924300844954!2d-59.0238513!3d-34.10843185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1657940766679!5m2!1ses-419!2sar" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </article>
+    </section>
+    <!--cierre formulario-->
+    <!--inicio de footer-->
+    <footer>
+        <div>
+            <a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.twitter.com"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+    </footer>
+</body>
+</html>
