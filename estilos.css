@@ -18,7 +18,9 @@
     border-bottom: 2px solid #b11e87;
     width: 100%;
     background-image: linear-gradient(#fa96ed, #f3bce3 );
+    padding: 20px;
 }
+
 .header h1{
     text-shadow: 1px 1px 1px black;
     animation-name: movetitulo;
@@ -26,6 +28,7 @@
     animation-delay: 0;
     animation-iteration-count: 1;
     animation-timing-function: ease-in-out;
+    line-height: normal;
 }
 @keyframes movetitulo {
     0%{text-shadow: 1px 1px 1px black ;
@@ -99,7 +102,7 @@ body {
 }
 .banner p{
     height: auto;
-    width: 500px;
+    width: 400px;
 }
 .enlace{
     text-decoration: none;
@@ -123,8 +126,9 @@ body {
     object-fit: cover;
 }
 .coment p{
-    height: 200px;
+    height: 150px;
     width: 200px;;
+    margin-top: 20px;
 }
 .galeria{
     width: 100%;
@@ -315,6 +319,7 @@ footer {
     width: 100%;
     text-shadow: 1px 1px 2px black;
     background-image: linear-gradient(#f3bce3, #fa96ed );
+    height: 70px;
 }
 footer a{
     text-decoration: none;
@@ -326,9 +331,13 @@ footer a:hover{
 }
 
 @media only screen and (min-width:320px) and (max-width:500px){
+header{
 
+}
 header label{
-    display: block;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 #btn-menu{
     display: none;
@@ -349,9 +358,11 @@ header label{
 #btn-menu:checked ~ .menu{
     margin: 0;
 }
-
+.banner p{
+    width: 80%;
+}
 .coment{
-    gap: 50px;
+    gap: 20px;
 }
 .galeria{
     grid-template-columns: 1fr 1fr 1fr;
@@ -467,9 +478,16 @@ footer {
     width: 100%;
 }
 }
-@media only screen and (min-width:501px){
+@media only screen and (min-width:501px) and (max-width:850px){
     .galeria{
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: 200px 200px ;
+    }
+    .coment{
+
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+        justify-items: center;
     }
 }
