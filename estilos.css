@@ -101,6 +101,10 @@ body {
     height: auto;
     width: 500px;
 }
+.enlace{
+    text-decoration: none;
+    color: #fd08c0;
+}
 .titulo{
     text-align: center;
     padding: 20px;
@@ -274,7 +278,7 @@ body {
     margin: 15px;
 }
 
-.form{
+.formulario{
     display: flex;
     flex-direction: column;
     text-decoration: none;
@@ -286,6 +290,10 @@ body {
 .contacto{
     width: 60%;
     margin: auto;
+}
+.contacto label{
+    display: flex;
+    flex-direction: column;
 }
 .contacto input{
     width: 70%;
@@ -340,6 +348,10 @@ header label{
 }
 #btn-menu:checked ~ .menu{
     margin: 0;
+}
+
+.coment{
+    gap: 50px;
 }
 .galeria{
     grid-template-columns: 1fr 1fr 1fr;
@@ -449,6 +461,9 @@ footer {
     width: 100%;
 }
 .contacto textarea{
+    width: 100%;
+}
+.contacto iframe{
     width: 100%;
 }
 }
