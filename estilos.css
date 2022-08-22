@@ -137,14 +137,15 @@ body {
     height: auto;
     display: grid;
     padding: 20px;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(8, 200px);
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 200px 200px ;
     grid-gap: 20px;
 }
 .item{
     background-color: grey;
     border: 2px solid black;
     width: 100%;
+    height: auto;
     box-shadow: 1px 1px 5px black;
     border-radius: 5px;
 }
@@ -289,7 +290,7 @@ body {
     display: flex;
     flex-direction: column;
     text-decoration: none;
-    color:#8d166b;
+    color:#b11e87;
     font-size: 16px;
     align-items: center;
     gap: 15px;
@@ -302,12 +303,17 @@ body {
     display: flex;
     flex-direction: column;
 }
-.contacto input{
-    width: 70%;
+.btn{
+    color: white;
+    background-color: #b11e87;
 }
-.contacto textarea{
-    width: 70%;
+.form-group input{
+    width: 100%;
 }
+.form-group textarea{
+    width: 100%;
+}
+
 
 /*fin partes de los body*/
 
