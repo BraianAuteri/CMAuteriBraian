@@ -21,7 +21,6 @@
     border-bottom: 2px solid #b11e87;
     width: 100%;
     background-image: linear-gradient(#fa96ed, #f3bce3 );
-    padding: 20px;
 }
 
 .header h1{
@@ -152,8 +151,9 @@ body {
     display: grid;
     padding: 20px;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 200px 200px ;
+    grid-template-rows: 300px 300px ;
     grid-gap: 20px;
+    object-fit: cover;
 }
 .item{
     background-color: grey;
@@ -233,17 +233,17 @@ body {
     background-position: center;
 }
 .pastel6{
-    background-image: url(./assets/img/torta6.jpeg);
+    background-image: url(./assets/img/torta6.jpg);
     background-size: cover;
     background-position:top;
 }
 .pastel7{
-    background-image: url(./assets/img/torta7.jpeg);
+    background-image: url(./assets/img/torta7.jpg);
     background-size: cover;
     background-position: center;
 }
 .pastel8{
-    background-image: url(./assets/img/torta8.jpeg);
+    background-image: url(./assets/img/torta8.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -288,9 +288,6 @@ body {
     background-position: center;
 }
 
-
-/* los cubos celestes serán imagenes */
-
 .contacto{
     text-align: center;
     padding: 20px;
@@ -327,6 +324,9 @@ body {
 .form-group textarea{
     width: 100%;
 }
+.formulario h3{
+    text-align: center;
+}
 
 
 /*fin partes de los body*/
@@ -343,6 +343,7 @@ footer {
     text-shadow: 1px 1px 2px black;
     background-image: linear-gradient(#f3bce3, #fa96ed );
     height: 70px;
+    padding-top: 10px;
 }
 footer a{
     text-decoration: none;
@@ -352,7 +353,8 @@ footer a:hover{
     color: #df0eab;
     transition: all 0.9s;
 }
-
+/*fin de footer*/
+/*inicio media queries*/
 @media only screen and (min-width:320px) and (max-width:500px){
 header label{
     display: flex;
