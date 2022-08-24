@@ -1,8 +1,11 @@
-/*fuente*/
+/*fuentes*/
 @font-face {
     font-family: 'Baroque';
     src: url(./assets/font/BaroqueScript.ttf);
 }
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+/*fin fuentes*/
+
 /*Reseteo*/
 *{
     margin: 0;
@@ -51,6 +54,10 @@ header label:hover{
     color: #df0eab;
     transition: .5s;
 }
+.menu{
+    font-family: 'Poiret One', cursive;
+    z-index: 100;
+}
 .menu ul{
     margin: 0;
     font-size: 16px;
@@ -82,7 +89,7 @@ header label:hover{
 /*fin de nav*/
 /* partes de body*/
 body {
-    font-family: 'Baroque';
+    font-family: 'Poiret One', cursive;
     background-color: #fae7f4;
     color: #b11e87;
 }
