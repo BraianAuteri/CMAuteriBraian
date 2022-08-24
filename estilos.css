@@ -59,14 +59,15 @@ header label:hover{
 }
 .menu ul{
     margin: 0;
-    font-size: 18px;
     padding: 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     list-style: none;
 }
-
+.menu ul li{
+    font-size: 20px;
+}
 .menu li a{
     display: flex;
     flex-direction: row;
