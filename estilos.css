@@ -16,9 +16,8 @@
   font-size: 18px;
   background-color: #f3bce3;
   font-family: "Baroque";
-  border-bottom: 2px solid #b11e87;
   width: 100%;
-  background-image: linear-gradient(#fa96ed, #f3bce3);
+  background-image: linear-gradient(#fa96ed, #f8d1ed);
 }
 .header h1 {
   text-shadow: 1px 1px 2px black;
@@ -82,7 +81,6 @@ body {
 }
 
 .banner {
-  margin-top: 20px;
   padding: 20px;
   display: flex;
   flex-direction: row;
@@ -119,7 +117,8 @@ body {
 .col-sm-6 img {
   width: 250px;
   height: 300px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .carousel-control-next {
@@ -162,7 +161,8 @@ body {
   height: auto;
   box-shadow: 1px 1px 5px black;
   border-radius: 5px;
-  object-fit: scale-down;
+  -o-object-fit: scale-down;
+     object-fit: scale-down;
 }
 .item:hover {
   transform: scale(1.1);
@@ -356,14 +356,13 @@ form {
 
 footer {
   background-color: #f3bce3;
-  border-top: 2px solid #b11e87;
   text-align: center;
   letter-spacing: 20px;
   font-size: 28px;
   margin-top: 20px;
   width: 100%;
   text-shadow: 1px 1px 2px black;
-  background-image: linear-gradient(#f3bce3, #fa96ed);
+  background-image: linear-gradient(#f8d1ed, #fa96ed);
   height: 70px;
   padding-top: 10px;
 }
@@ -415,8 +414,10 @@ footer i:hover {
   }
   .container img {
     width: 100%;
-    object-fit: cover;
-    object-position: center;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: center;
+       object-position: center;
   }
   .carousel-control-next {
     opacity: 0.7;
@@ -438,7 +439,8 @@ footer i:hover {
     grid-row: 1/2;
   }
   .postre2 {
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
     grid-column: 2/4;
     grid-row: 1/2;
   }
@@ -575,6 +577,4 @@ footer i:hover {
   .container {
     width: auto;
   }
-}
-
-/*# sourceMappingURL=estilos.css.map */
+}/*# sourceMappingURL=estilos.css.map */
