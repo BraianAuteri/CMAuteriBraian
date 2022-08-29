@@ -120,6 +120,7 @@ body {
   height: 300px;
   -o-object-fit: cover;
      object-fit: cover;
+  width: 100%;
 }
 
 .carousel-control-next {
