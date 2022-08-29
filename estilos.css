@@ -4,12 +4,16 @@
   font-family: "Baroque";
   src: url(./assets/font/BaroqueScript.ttf);
 }
+/*fin de fuentes*/
+/*reseteo*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/*reseteo*/
+/*header*/
 .header {
   padding-top: 25px;
   text-align: center;
@@ -22,6 +26,7 @@
   text-shadow: 1px 1px 2px black;
 }
 
+/*nav del header*/
 #btn-menu {
   display: none;
 }
@@ -68,6 +73,8 @@ header label:hover {
   transform: scale(1.3);
 }
 
+/*fin header*/
+/*contenido del main/body*/
 main {
   min-height: calc(100vh - 140px - 70px);
 }
@@ -79,6 +86,7 @@ body {
   font-size: 18px;
 }
 
+/*banner del index*/
 .banner {
   margin-top: 20px;
   padding: 20px;
@@ -105,11 +113,15 @@ body {
   color: #fd08c0;
 }
 
+/*fin del banner*/
+/*titulos (h2) de las paginas*/
 .titulo {
   text-align: center;
   padding: 20px;
 }
 
+/*fin titulos*/
+/*carousel del index*/
 .card-body {
   color: #c41c94;
   text-align: right;
@@ -142,6 +154,8 @@ body {
   line-height: normal;
 }
 
+/*fin del carousel*/
+/*cuerpo de los html menos index*/
 .texto {
   width: 100%;
 }
@@ -315,6 +329,7 @@ body {
   background-position: center;
 }
 
+/*pagina de contacto*/
 .contacto {
   text-align: center;
   padding: 20px;
@@ -356,6 +371,8 @@ form {
   width: 100%;
 }
 
+/*fin del cuerpo de los html*/
+/*footer*/
 footer {
   text-align: center;
   letter-spacing: 20px;
@@ -377,6 +394,7 @@ footer i:hover {
   transform: scale(1.2);
 }
 
+/*fin footer*/
 @media only screen and (min-width: 320px) and (max-width: 500px) {
   header label {
     display: flex;

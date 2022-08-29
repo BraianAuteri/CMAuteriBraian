@@ -4,12 +4,15 @@
 	src: url(./assets/font/BaroqueScript.ttf);
 }
 @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&display=swap');
-
+/*fin de fuentes*/
+/*reseteo*/
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
+/*reseteo*/
+/*header*/
 .header {
 	padding-top: 25px;
 	text-align: center;
@@ -21,6 +24,7 @@
 		text-shadow: 1px 1px 2px black;
 	}
 }
+/*nav del header*/
 #btn-menu {
 	display: none;
 }
@@ -66,6 +70,8 @@ header {
 		}
 	}
 }
+/*fin header*/
+/*contenido del main/body*/
 main {
 	min-height: calc(100vh - 140px - 70px);
 }
@@ -75,6 +81,7 @@ body {
 	color: #b11e87;
     font-size: 18px;
 }
+/*banner del index*/
 .banner {
 	margin-top: 20px;
 	padding: 20px;
@@ -99,10 +106,14 @@ body {
 	text-decoration: none;
 	color: #fd08c0;
 }
+/*fin del banner*/
+/*titulos (h2) de las paginas*/
 .titulo {
 	text-align: center;
 	padding: 20px;
 }
+/*fin titulos*/
+/*carousel del index*/
 .card-body {
 	color: #c41c94;
 	text-align: right;
@@ -130,6 +141,8 @@ body {
 	width: 50%;
 	line-height: normal;
 }
+/*fin del carousel*/
+/*cuerpo de los html menos index*/
 .texto {
 	width: 100%;
 }
@@ -275,6 +288,7 @@ body {
 	background-size: cover;
 	background-position: center;
 }
+/*pagina de contacto*/
 .contacto {
 	text-align: center;
 	padding: 20px;
@@ -312,6 +326,8 @@ form{
 		width: 100%;
 	}
 }
+/*fin del cuerpo de los html*/
+/*footer*/
 footer {
 	text-align: center;
 	letter-spacing: 20px;
@@ -334,6 +350,7 @@ footer {
 		}
 	}
 }
+/*fin footer*/
 @media only screen and (min-width:320px) and (max-width:500px) {
 	header {
 		label {
