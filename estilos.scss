@@ -76,6 +76,7 @@ body {
     font-size: 18px;
 }
 .banner {
+	margin-top: 20px;
 	padding: 20px;
 	display: flex;
 	flex-direction: row;
@@ -91,6 +92,7 @@ body {
 		height: auto;
 		width: 400px;
 		line-height: 30px;
+		text-align: justify;
 	}
 }
 .enlace {
