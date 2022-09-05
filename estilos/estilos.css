@@ -2,9 +2,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&display=swap");
 @font-face {
   font-family: "Baroque";
-  src: url(./assets/font/BaroqueScript.ttf);
+  src: url(../assets/font/BaroqueScript.ttf);
 }
 /*fin de fuentes*/
+/*colores*/
+/*fin colores*/
+/*mixin*/
+/*fin mixin*/
 /*reseteo*/
 * {
   margin: 0;
@@ -17,7 +21,6 @@
 .header {
   padding-top: 25px;
   text-align: center;
-  font-size: 18px;
   font-family: "Baroque";
   width: 100%;
   background-image: linear-gradient(#fa96ed, #f8d1ed);
@@ -110,7 +113,7 @@ body {
 
 .enlace {
   text-decoration: none;
-  color: #fd08c0;
+  color: #ff00bf;
 }
 
 /*fin del banner*/
@@ -123,15 +126,14 @@ body {
 /*fin titulos*/
 /*carousel del index*/
 .card-body {
-  color: #c41c94;
+  color: #df0eab;
   text-align: right;
 }
 
 .col-sm-6 img {
   width: 250px;
   height: 300px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   width: 100%;
 }
 
@@ -146,7 +148,7 @@ body {
 }
 
 .card-title {
-  color: #79145c;
+  color: #b11e87;
 }
 
 .container {
@@ -177,8 +179,9 @@ body {
   height: auto;
   box-shadow: 1px 1px 5px black;
   border-radius: 5px;
-  -o-object-fit: scale-down;
-     object-fit: scale-down;
+  object-fit: scale-down;
+  background-position: center;
+  background-size: cover;
 }
 .item:hover {
   transform: scale(1.1);
@@ -186,147 +189,99 @@ body {
 }
 
 .postre1 {
-  background-image: url(./assets/img/postre1.jpeg);
-  background-size: cover;
-  background-position: center;
+  background-image: url(../assets/img/postre1.jpeg);
 }
 
 .postre2 {
-  background-image: url(./assets/img/postre2.jpeg);
-  background-size: cover;
-  background-position: bottom;
+  background-image: url(../assets/img/postre2.jpeg);
 }
 
 .postre3 {
-  background-image: url(./assets/img/postre3.jpeg);
-  background-size: cover;
-  background-position: center;
+  background-image: url(../assets/img/postre3.jpeg);
 }
 
 .postre4 {
-  background-image: url(./assets/img/postre4.jpeg);
-  background-size: cover;
-  background-position: bottom;
+  background-image: url(../assets/img/postre4.jpeg);
 }
 
 .postre5 {
-  background-image: url(./assets/img/postre5.jpeg);
-  background-size: cover;
-  background-position: center;
+  background-image: url(../assets/img/postre5.jpeg);
 }
 
 .postre6 {
-  background-image: url(./assets/img/postre6.jpeg);
-  background-size: cover;
-  background-position: center;
+  background-image: url(../assets/img/postre6.jpeg);
 }
 
 .postre7 {
-  background-image: url(./assets/img/postre7.jpeg);
-  background-size: cover;
-  background-position: center;
+  background-image: url(../assets/img/postre7.jpeg);
 }
 
 .postre8 {
-  background-image: url(./assets/img/postre8.jpeg);
-  background-size: cover;
-  background-position: center;
+  background-image: url(../assets/img/postre8.jpeg);
 }
 
 .pastel1 {
-  background-image: url(./assets/img/torta1.jpeg);
-  background-size: cover;
-  background-position: center;
+  background-image: url(../assets/img/torta1.jpeg);
 }
 
 .pastel2 {
-  background-image: url(./assets/img/torta2.jpeg);
-  background-size: cover;
-  background-position: center;
+  background-image: url(../assets/img/torta2.jpeg);
 }
 
 .pastel3 {
-  background-image: url(./assets/img/torta3.jpeg);
-  background-size: cover;
-  background-position: center;
+  background-image: url(../assets/img/torta3.jpeg);
 }
 
 .pastel4 {
-  background-image: url(./assets/img/torta4.jpeg);
-  background-size: cover;
-  background-position: center;
+  background-image: url(../assets/img/torta4.jpeg);
 }
 
 .pastel5 {
-  background-image: url(./assets/img/torta5.jpeg);
-  background-size: cover;
-  background-position: center;
+  background-image: url(../assets/img/torta5.jpeg);
 }
 
 .pastel6 {
-  background-image: url(./assets/img/torta6.jpg);
-  background-size: cover;
-  background-position: top;
+  background-image: url(../assets/img/torta6.jpg);
 }
 
 .pastel7 {
-  background-image: url(./assets/img/torta7.jpg);
-  background-size: cover;
-  background-position: center;
+  background-image: url(../assets/img/torta7.jpg);
 }
 
 .pastel8 {
-  background-image: url(./assets/img/torta8.jpg);
-  background-size: cover;
-  background-position: center;
+  background-image: url(../assets/img/torta8.jpg);
 }
 
 .dulce1 {
-  background-image: url(./assets/img/dulce1.jpeg);
-  background-size: cover;
-  background-position: center;
+  background-image: url(../assets/img/dulce1.jpeg);
 }
 
 .dulce2 {
-  background-image: url(./assets/img/dulce2.jpeg);
-  background-size: cover;
-  background-position: center;
+  background-image: url(../assets/img/dulce2.jpeg);
 }
 
 .dulce3 {
-  background-image: url(./assets/img/dulce3.jpeg);
-  background-size: cover;
-  background-position: center;
+  background-image: url(../assets/img/dulce3.jpeg);
 }
 
 .dulce4 {
-  background-image: url(./assets/img/dulce4.jpeg);
-  background-size: cover;
-  background-position: center;
+  background-image: url(../assets/img/dulce4.jpeg);
 }
 
 .dulce5 {
-  background-image: url(./assets/img/dulce5.jpeg);
-  background-size: cover;
-  background-position: center;
+  background-image: url(../assets/img/dulce5.jpeg);
 }
 
 .dulce6 {
-  background-image: url(./assets/img/dulce6.jpeg);
-  background-size: cover;
-  background-position: center;
+  background-image: url(../assets/img/dulce6.jpeg);
 }
 
 .dulce7 {
-  background-image: url(./assets/img/dulce7.jpeg);
-  background-size: cover;
-  background-position: center;
+  background-image: url(../assets/img/dulce7.jpeg);
 }
 
 .dulce8 {
-  background-image: url(./assets/img/dulce8.jpeg);
-  background-size: cover;
-  background-position: center;
+  background-image: url(../assets/img/dulce8.jpeg);
 }
 
 /*pagina de contacto*/
@@ -395,6 +350,7 @@ footer i:hover {
 }
 
 /*fin footer*/
+/*medias queries*/
 @media only screen and (min-width: 320px) and (max-width: 500px) {
   header label {
     display: flex;
@@ -412,7 +368,7 @@ footer i:hover {
   }
   .menu {
     position: absolute;
-    background-color: #f3bce3;
+    background-color: #f8d1ed;
     margin-left: -70%;
     border: 1px solid #b11e87;
     transition: all 0.5s;
@@ -433,10 +389,8 @@ footer i:hover {
   }
   .container img {
     width: 100%;
-    -o-object-fit: cover;
-       object-fit: cover;
-    -o-object-position: center;
-       object-position: center;
+    object-fit: cover;
+    object-position: center;
   }
   .carousel-control-next {
     opacity: 0.7;
@@ -458,8 +412,7 @@ footer i:hover {
     grid-row: 1/2;
   }
   .postre2 {
-    -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
     grid-column: 2/4;
     grid-row: 1/2;
   }
@@ -581,7 +534,7 @@ footer i:hover {
   }
   .menu {
     position: absolute;
-    background-color: #f3bce3;
+    background-color: #f8d1ed;
     margin-left: -70%;
     border: 1px solid #b11e87;
     transition: all 0.5s;
@@ -596,4 +549,6 @@ footer i:hover {
   .container {
     width: auto;
   }
-}/*# sourceMappingURL=estilos.css.map */
+}
+
+/*# sourceMappingURL=estilos.css.map */
