@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&display=swap");
 @font-face {
   font-family: "Baroque";
-  src: url(../assets/font/BaroqueScript.ttf);
+  src: url(../../assets/font/BaroqueScript.ttf);
 }
 /*fin de fuentes*/
 /*colores*/
@@ -191,99 +191,99 @@ body {
 }
 
 .postre1 {
-  background-image: url(../assets/img/postre1.jpeg);
+  background-image: url(../../assets/img/postre1.jpeg);
 }
 
 .postre2 {
-  background-image: url(../assets/img/postre2.jpeg);
+  background-image: url(../../assets/img/postre2.jpeg);
 }
 
 .postre3 {
-  background-image: url(../assets/img/postre3.jpeg);
+  background-image: url(../../assets/img/postre3.jpeg);
 }
 
 .postre4 {
-  background-image: url(../assets/img/postre4.jpeg);
+  background-image: url(../../assets/img/postre4.jpeg);
 }
 
 .postre5 {
-  background-image: url(../assets/img/postre5.jpeg);
+  background-image: url(../../assets/img/postre5.jpeg);
 }
 
 .postre6 {
-  background-image: url(../assets/img/postre6.jpeg);
+  background-image: url(../../assets/img/postre6.jpeg);
 }
 
 .postre7 {
-  background-image: url(../assets/img/postre7.jpeg);
+  background-image: url(../../assets/img/postre7.jpeg);
 }
 
 .postre8 {
-  background-image: url(../assets/img/postre8.jpeg);
+  background-image: url(../../assets/img/postre8.jpeg);
 }
 
 .pastel1 {
-  background-image: url(../assets/img/torta1.jpeg);
+  background-image: url(../../assets/img/torta1.jpeg);
 }
 
 .pastel2 {
-  background-image: url(../assets/img/torta2.jpeg);
+  background-image: url(../../assets/img/torta2.jpeg);
 }
 
 .pastel3 {
-  background-image: url(../assets/img/torta3.jpeg);
+  background-image: url(../../assets/img/torta3.jpeg);
 }
 
 .pastel4 {
-  background-image: url(../assets/img/torta4.jpeg);
+  background-image: url(../../assets/img/torta4.jpeg);
 }
 
 .pastel5 {
-  background-image: url(../assets/img/torta5.jpeg);
+  background-image: url(../../assets/img/torta5.jpeg);
 }
 
 .pastel6 {
-  background-image: url(../assets/img/torta6.jpg);
+  background-image: url(../../assets/img/torta6.jpg);
 }
 
 .pastel7 {
-  background-image: url(../assets/img/torta7.jpg);
+  background-image: url(../../assets/img/torta7.jpg);
 }
 
 .pastel8 {
-  background-image: url(../assets/img/torta8.jpg);
+  background-image: url(../../assets/img/torta8.jpg);
 }
 
 .dulce1 {
-  background-image: url(../assets/img/dulce1.jpeg);
+  background-image: url(../../assets/img/dulce1.jpeg);
 }
 
 .dulce2 {
-  background-image: url(../assets/img/dulce2.jpeg);
+  background-image: url(../../assets/img/dulce2.jpeg);
 }
 
 .dulce3 {
-  background-image: url(../assets/img/dulce3.jpeg);
+  background-image: url(../../assets/img/dulce3.jpeg);
 }
 
 .dulce4 {
-  background-image: url(../assets/img/dulce4.jpeg);
+  background-image: url(../../assets/img/dulce4.jpeg);
 }
 
 .dulce5 {
-  background-image: url(../assets/img/dulce5.jpeg);
+  background-image: url(../../assets/img/dulce5.jpeg);
 }
 
 .dulce6 {
-  background-image: url(../assets/img/dulce6.jpeg);
+  background-image: url(../../assets/img/dulce6.jpeg);
 }
 
 .dulce7 {
-  background-image: url(../assets/img/dulce7.jpeg);
+  background-image: url(../../assets/img/dulce7.jpeg);
 }
 
 .dulce8 {
-  background-image: url(../assets/img/dulce8.jpeg);
+  background-image: url(../../assets/img/dulce8.jpeg);
 }
 
 /*pagina de contacto*/
