@@ -61,6 +61,7 @@ header label:hover {
 }
 .menu ul li {
   font-size: 20px;
+  font-weight: 600;
 }
 .menu li a {
   display: flex;
@@ -80,6 +81,7 @@ header label:hover {
 /*contenido del main/body*/
 main {
   min-height: calc(100vh - 150px - 70px);
+  font-weight: 600;
 }
 
 body {
