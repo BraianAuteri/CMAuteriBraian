@@ -61,7 +61,7 @@ $colorfuerte: #df0eab;
 }
 
 header {
-	height: 140px;
+	height: 150px;
 
 	label {
 		display: none;
@@ -113,7 +113,7 @@ header {
 
 /*contenido del main/body*/
 main {
-	min-height: calc(100vh - 140px - 70px);
+	min-height: calc(100vh - 150px - 70px);
 }
 
 body {
@@ -403,6 +403,9 @@ footer {
 			display: flex;
 			flex-direction: column;
 			gap: 20px;
+			i{
+				padding-top: 20px;
+			}
 		}
 	}
 
@@ -430,10 +433,13 @@ footer {
 		p {
 			width: 80%;
 		}
+		img{
+			width: 80%;
+		}
 	}
 
 	.container {
-		width: auto;
+		width: 80%;
 
 		p {
 			line-height: 1.7;
@@ -615,6 +621,9 @@ footer {
 			display: flex;
 			flex-direction: column;
 			gap: 20px;
+			i{
+				padding-top: 20px;
+			}
 		}
 	}
 
