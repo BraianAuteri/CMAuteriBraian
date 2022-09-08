@@ -7,6 +7,16 @@
 /*fin de fuentes*/
 /*colores*/
 /*fin colores*/
+*::-webkit-scrollbar {
+  width: 12px;
+}
+*::-webkit-scrollbar-track {
+  background: #fa96ed;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: #b11e87;
+}
+
 /*mixin*/
 /*fin mixin*/
 /*reseteo*/
