@@ -33,7 +33,7 @@ $colorfuerte: #df0eab;
 @mixin menu {
     position: absolute;
     background-color: $colorclaro;
-    margin-left: -70%;
+    margin-left: -100%;
     border: 1px solid $colorvioleta;
     transition: all 0.5s;
 
@@ -94,7 +94,7 @@ header {
 .menu {
     font-family: 'Merriweather Sans', sans-serif;
     z-index: 100;
-
+    width: 100%;
     ul {
         margin: 0;
         padding: 20px;
@@ -118,7 +118,6 @@ header {
             text-decoration: none;
             display: block;
         }
-
         &:hover {
             color: $colorfuerte;
             transition: all 0.6s;
@@ -131,7 +130,7 @@ header {
 
 /*contenido del main/body*/
 main {
-    min-height: calc(100vh - 150px - 70px);
+    min-height: calc(100vh - 150px - 110px);
     font-weight: 600;
 }
 
@@ -197,12 +196,12 @@ body {
 }
 
 .carousel-control-next {
-    opacity: 0.7;
+    filter: invert(1);
     padding-left: 60px;
 }
 
 .carousel-control-prev {
-    opacity: 0.7;
+    filter: invert(1);
     padding-right: 60px;
 }
 
@@ -232,19 +231,18 @@ body {
     grid-gap: 20px;
 }
 
-.item {
+.item {        
+    transition: all 0.3s;
     background-color: grey;
-    border: 2px solid black;
     width: 100%;
     height: auto;
-    box-shadow: 1px 1px 5px black;
+    box-shadow: 2px 2px 5px black;
     border-radius: 5px;
     object-fit: scale-down;
     @include bgposition;
 
     &:hover {
-        transform: scale(1.1);
-        transition: all 0.8s;
+        transform: scale(1.05);
     }
 }
 
